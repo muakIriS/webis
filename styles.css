@@ -1,0 +1,95 @@
+body {
+    cursor: url('C:/Users/danie/Desktop/Scripts/Web/Webis/img/cursor.png'), auto;
+    font-family: Arial, sans-serif;
+    background-color: #FADDE1; /* Rosa pálido */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F26D85; /* Rosa fuerte */
+    padding: 20px;
+    color: white; /* Texto en blanco */
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-section {
+    flex: 1;
+    margin-right: 10px; /* Espacio entre las secciones */
+    padding: 20px;
+    background-color: #FADDE1; /* Rosa pálido */
+    border: 1px solid #F4C2C2; /* Borde rosa claro */
+    border-radius: 10px;
+}
+
+.image-section h2 {
+    color: #F26D85; /* Rosa fuerte */
+    margin-bottom: 10px;
+}
+
+.image-section p {
+    text-align: justify;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.text-section {
+    flex: 1;
+    margin-left: 50px; /* Espacio entre las secciones */
+    padding: 20px;
+    background-color: #FADDE1; /* Rosa pálido */
+    border: 1px solid #F4C2C2; /* Borde rosa claro */
+    border-radius: 10px;
+}
+
+.text-section h2 {
+    color: #F26D85; /* Rosa fuerte */
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    text-align: justify;
+    margin-bottom: 20px; /* Espacio entre párrafos */
+}
+
+.download-section {
+    margin-top: 20px; /* Espacio entre la última sección y el enlace de descarga */
+    padding: 20px;
+    background-color: #F26D85; /* Rosa fuerte */
+    border-radius: 10px;
+}
+
+.download-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FADDE1; /* Rosa pálido */
+    color: #F26D85; /* Rosa fuerte */
+    padding: 10px 20px;
+    border: 2px solid #F26D85; /* Borde rosa fuerte */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F26D85; /* Rosa fuerte */
+    padding: 10px;
+    color: white;
+}
